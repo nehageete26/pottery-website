@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kalā Mitti</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Kalā Mitti</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <a href="#artists">Artists</a>
+      <a href="#reviews">Blog</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Handcrafted Pottery by Local Artists</h2>
+    <p>Unique, beautiful, and sustainable.</p>
+  </section>
+
+  <section id="gallery" class="products">
+    <h2>Featured Products</h2>
+    <div class="product-list" id="product-list">
+      <!-- Products dynamically loaded here -->
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="response"></p>
+  </section>
+
+
+  <section id="artists" class="artists">
+  <h2>Meet the Artists</h2>
+  <div class="artist-list">
+    <div class="artist-card">
+      <img src="riya.jpg" alt="Artist 1" />
+      <h3>Riya Sharma</h3>
+      <p>Specializes in eco-friendly clay pots and home decor items.</p>
+    </div>
+    <div class="artist-card">
+      <img src="boy.jpg" alt="Artist 2" />
+      <h3>Arjun Mehta</h3>
+      <p>Loves experimenting with modern pottery designs and glazes.</p>
+    </div>
+    <div class="artist-card">
+      <img src="aanya.jpg" alt="Artist 3" />
+      <h3>Ananya Verma</h3>
+      <p>Focuses on traditional Indian pottery techniques.</p>
+    </div>
+  </div>
+</section>
+
+<section id="reviews" class="reviews">
+  <h2>What Our Customers Say</h2>
+  <div class="review-list">
+    <div class="review-card">
+      <p>"Absolutely love the handcrafted pots! The quality and design are amazing."</p>
+      <h3>- Neha G.</h3>
+    </div>
+    <div class="review-card">
+      <p>"Beautiful pieces, delivered safely and on time. Perfect for gifting!"</p>
+      <h3>- Rahul M.</h3>
+    </div>
+    <div class="review-card">
+      <p>"The artistry is just stunning. Makes my home look so elegant."</p>
+      <h3>- Aditi S.</h3>
+    </div>
+  </div>
+</section>
+
+  <footer>
+    <p>© 2025 Kalā Mitti. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
